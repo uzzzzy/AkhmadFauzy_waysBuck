@@ -1,0 +1,76 @@
+.modalBg {
+  position: fixed;
+  width: 100%;
+  height: 100vh;
+  top: 0;
+  left: 0;
+  background-color: rgba(150, 117, 117, 0.515);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.modalOut {
+  height: 100%;
+  width: 100%;
+}
+
+.modal {
+  position: fixed;
+  background-color: white;
+  width: 416px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  border-radius: 10px;
+  padding: 41px 31px;
+}
+
+.modal h2 {
+  justify-content: flex-start;
+  width: 100%;
+  margin-bottom: 29px;
+  font-weight: 900;
+  font-size: 36px;
+  line-height: 49px;
+  color: #bd0707;
+}
+
+.modal input {
+  width: 100%;
+  margin-bottom: 20px;
+  padding: 10px 5px;
+  font-size: 18px;
+  font-weight: 300;
+  background: rgba(224, 200, 200, 0.25);
+  border: 2px solid #bd0707;
+  box-sizing: border-box;
+  border-radius: 5px;
+}
+
+.modal button {
+  margin-top: 9px;
+  width: 100%;
+  border: none;
+  padding: 13px;
+  color: white;
+  font-weight: 900;
+  font-size: 18px;
+  line-height: 25px;
+  background-color: #bd0707;
+  border-radius: 5px;
+}
+
+.modal button:hover {
+  -webkit-box-shadow: 0px 0px 10px 2px rgba(255, 194, 194, 1);
+  -moz-box-shadow: 0px 0px 10px 2px rgba(255, 194, 194, 1);
+  box-shadow: 0px 0px 10px 2px rgba(255, 194, 194, 1);
+  transition: box-shadow 0.3s ease-in-out;
+  background: #ffc2c2;
+  color: #bd0707;
+}
+
+.modal p {
+  margin-top: 20px;
+}

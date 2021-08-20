@@ -1,13 +1,32 @@
+@import url("https://fonts.googleapis.com/css2?family=Signika+Negative:wght@300;400;700&display=swap");
+
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  font-family: "Signika Negative", sans-serif;
+  outline: none;
+}
+
+#root {
+  justify-content: center;
+  align-content: center;
+}
+
+.container {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  max-width: 1366px;
+  margin: auto;
+}
+
 body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  min-height: 100vh;
+  background-color: #fff;
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
