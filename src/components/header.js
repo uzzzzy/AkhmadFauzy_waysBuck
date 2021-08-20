@@ -13,10 +13,11 @@ export default function Header() {
             <header>
                 <img src={Logo} href="#" className={styles.logo} alt="logo" />
                 <ul>
-                    <li><button onClick={() => setOpenModal({open:true})} >Login</button></li>
+                    <li><button onClick={() => setOpenModal({open:true,login:true})} >Login</button></li>
+                    <li><button onClick={() => setOpenModal({open:true,login:false})} className={styles.register}>Register</button></li>
                 </ul>
             </header>
-            {openModal.open &&<Modal closeModal={setOpenModal}/>}
+            {openModal.open &&<Modal login={openModal.login} closeModal={setOpenModal}/>}
         </>
     )
 }
