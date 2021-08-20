@@ -15,6 +15,8 @@ header ul {
 header ul li {
   list-style: none;
   margin-left: 20px;
+  justify-self: center;
+  align-items: center;
 }
 
 header ul li button {
@@ -51,4 +53,40 @@ header ul li button:active {
   border: 2px solid #840505;
   background: #840505;
   color: #fff;
+}
+
+.userRound {
+  display: block;
+  margin: 0 auto;
+  width: 60px;
+  height: 60px;
+  left: 1278px;
+  top: 54px;
+  border-radius: 50%;
+  border: 2px solid #bd0707;
+  box-sizing: border-box;
+}
+
+.cart {
+  height: 60px;
+  width: 60px;
+  background: url(../img/cart.svg) no-repeat;
+  background-position: center;
+}
+
+.cartNumber {
+  height: 20px;
+  width: 20px;
+  text-align: center;
+  display: table-cell;
+  vertical-align: middle;
+  font-size: 0.8em;
+  border-radius: 50%;
+  position: relative;
+  top: 0.9em;
+  left: 35px;
+  background-color: #f13f3f;
+  color: #fff;
+  justify-content: center;
+  align-items: center;
 }

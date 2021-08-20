@@ -1,0 +1,14 @@
+[
+    {
+        "id": 1,
+        "name": "Ice Coffee Palm Sugar",
+        "price": 27000,
+        "photo": "https://assets.klikindomaret.com/share/20079739_1.jpg"
+    },
+    {
+        "id": 2,
+        "name": "Ice Coffee Green Tea",
+        "price": 31000,
+        "photo": "https://assets.klikindomaret.com/share/20079739_1.jpg"
+    }
+]

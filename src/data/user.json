@@ -1,0 +1,16 @@
+[
+    {
+        "id": 1,
+        "fullname": "WaysBuck Admin",
+        "email": "admin@waysbuck",
+        "password": "admin",
+        "level": 1
+    },
+    {
+        "id": 2,
+        "fullname": "WaysBuck User",
+        "email": "user@waysbuck",
+        "password": "user"
+    }
+
+  ]
